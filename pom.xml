@@ -28,8 +28,8 @@
   </developers>
 
   <scm>
-    <connection>scm:git:git://github.com/wonsunahn/CS1632_CICD_JUnit.git</connection>
-    <developerConnection>scm:git:ssh://github.com:wonsunahn/CS1632_CICD_JUnit.git</developerConnection>
+    <connection>scm:git:git://github.com/CS1632/supplementary-exercise-4-ci-cd-pipelines-FishOfPitt116.git</connection>
+    <developerConnection>scm:git:ssh://github.com:CS1632/supplementary-exercise-4-ci-cd-pipelines-FishOfPitt116.git</developerConnection>
     <url>http://github.com/CS1632/supplementary-exercise-4-ci-cd-pipelines-FishOfPitt116</url>
   </scm>
 
@@ -37,7 +37,7 @@
     <repository>
       <id>github</id>
       <name>GitHub Apache Maven Packages</name>
-      <url>https://maven.pkg.github.com/CS1632/supplementary-exercise-4-ci-cd-pipelines-wonsunahn</url>
+      <url>https://maven.pkg.github.com/CS1632/supplementary-exercise-4-ci-cd-pipelines-FishOfPitt116</url>
     </repository>
   </distributionManagement>
 
