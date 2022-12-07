@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>io.github.wonsunahn</groupId>
-  <artifactId>cs1632-cicd-junit-rmf105</artifactId>
+  <artifactId>cs1632-cicd-junit-sty11</artifactId>
   <version>1.0</version>
   <packaging>jar</packaging>
 
-  <name>cs1632-cicd-junit-rmf105</name>
+  <name>cs1632-cicd-junit</name>
   <description>An exercise demonstrating CI/CD through github actions.  It uses JUnit for unit testing.</description>
   <url>https://github.com/CS1632/supplementary-exercise-4-ci-cd-pipelines-FishOfPitt116</url>
 
@@ -28,19 +28,19 @@
   </developers>
 
   <scm>
-    <connection>scm:git:git://github.com/CS1632/supplementary-exercise-4-ci-cd-pipelines-FishOfPitt116.git</connection>
-    <developerConnection>scm:git:ssh://github.com:CS1632/supplementary-exercise-4-ci-cd-pipelines-FishOfPitt116.git</developerConnection>
-    <url>http://github.com/CS1632/supplementary-exercise-4-ci-cd-pipelines-FishOfPitt116</url>
-  </scm>
-
-  <distributionManagement>
+    <connection>scm:git:git://github.com/wonsunahn/CS1632_CICD_JUnit.git</connection>
+    <developerConnection>scm:git:ssh://github.com:wonsunahn/CS1632_CICD_JUnit.git</developerConnection>
+    <url>http://github.com/wonsunahn/CS1632_CICD_JUnit/tree/master</url>
+   </scm>
+  
+   <distributionManagement>
     <repository>
-      <id>github</id>
-      <name>GitHub Apache Maven Packages</name>
-      <url>https://maven.pkg.github.com/CS1632/supplementary-exercise-4-ci-cd-pipelines-FishOfPitt116</url>
+    <id>github</id>
+    <name>GitHub Apache Maven Packages</name>
+    <url>https://maven.pkg.github.com/CS1632/supplementary-exercise-4-ci-cd-pipelines-FishOfPitt116</url>
     </repository>
-  </distributionManagement>
-
+  </distributionManagement>  
+  
   <properties>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
@@ -106,7 +106,7 @@
               <dataFile>${project.build.directory}/jacoco.exec</dataFile>
               <rules>
                 <rule>
-                  <element>CLASS</element>
+                  <element>CLASS</element>    
                   <limits>
                     <limit>
                       <counter>INSTRUCTION</counter>
@@ -135,5 +135,5 @@
       </plugin>
     </plugins>
   </reporting>
-
+  
 </project>
